@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio DIO.me estrutura HTML</title>
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;" id="inicio">
+        Desafio DIO.me, entendendo o HTML</h1>
+        <hr />
+        <ol>   
+        <h3>Olá, me chamo Herlon Andrade, neste Desafio foi proposto a realizar uma explicação com minhas palavras e o meu entendimento das aulas iniciais do HTML, utilizando apenas a estrutura HTML para realizar o site explicativo.
+        <br>
+        <br>O Html é uma estrutura para criação de sites, utilizando tags que possuem abertura e fechamento, com "< 'tag' >" para abertura e geralmente "< /'tag' >"para fechamento e muitas das Tags possuem atributos, porém, nesta explicação será abordada mais o uso das Tags.
+        <blockquote><small>Nem todas as Tags possuem uma tag de fechamento ou o fechamento é no final da pripria Tag inicial</small></blockquote>
+        <br>Logo abaixo encontrará todas as informações.
+        </h3>
+    <h2 id="voltar">
+        Sumário
+    </h2>
+    <ol>
+        <li><a href="#titulos"><strong>Tags de Marcação de Títulos e parágrafos</strong></a></li>
+        <li><a href="#formatadores"><strong>Formatadores de Texto</strong></a></li>
+        <li><a href="#links"><strong>Links</strong></a></li>
+        <li><a href="#citacoes"><strong>Citações e Abreviações</strong></a></li>
+        <li><a href="#listas"><strong>Listas</strong></a></li>
+        <li><a href="#others"><strong>Outros</strong></a></li>
+        <li><a href="#referencias"><strong>Referências</strong></a></li>
+    </ol>
+    <h2 id="titulos">
+        Tags de Marcação de Títulos e parágrafos
+    </h2>
+    <p>
+        Tags de Títulos, geralmente utilizada para títulos e frases de maior impacto, abaixo segue exemplo de Tags e suas funcionalidades:
+    </p>
+    <ul>
+        <li><strong>H1 a H6 - Cada uma dessas Tags possuem um tamanho diferente, exemplo abaixo:</strong></li>
+        <ul>
+            <h1>< h1 > < /h1 ></h1>
+            <h2>< h2 > < /h2 ></h2>
+            <h3>< h3 > < /h3 ></h3>
+            <h4>< h4 > < /h4 ></h4>
+            <h5>< h5 > < /h5 ></h5>
+            <h6>< h6 > < /h6 ></h6>
+        </ul>
+        <p><strong>Para utilização de Paragráfos é utilizado a tag < p > </strong></p>
+        <blockquote><p>O paragráfo é exibido em texto deste tamanho exibido aqui.</p></blockquote>
+    </ul>
+    <a href="#voltar">< Voltar</a>
+    <h2 id="formatadores">
+        Formatadores de Texto
+    </h2>
+    <p>
+        Tags utilizadas para formatação de texto, como deixar o texto em negrito, itálico, sublinhado e até mesmo riscado.
+        <br>Existem tambêm Tags para alterar a estrutura do texto, como deixar ele menor, elevar ou descer uma letra, número ou frase acima ou abaixo do texto.
+        <br>Segue exemplos abaixo:
+    </p>
+    <ul>
+        <li><strong>< strong > < /strong > </strong>Utilizado para deixar o texto em Negrito = <strong>EXEMPLO</strong></li>
+        <li><strong>< u > < /u > </strong>Utilizado para deixar o texto Sublinhado = <u>EXEMPLO</u></li>
+        <li><strong>< i > < /i > </strong>Utilizado para deixar o texto em Itálico = <i>EXEMPLO</i></li>
+        <li><strong>< small > < /small > </strong>Utilizado para deixar o texto menor = <small>exemplo</small></li>
+        <li><strong>< del > < /del > </strong>Utilizado para riscar o texto = <del>EXEMPLO</del></li>
+        <li><strong>< sub > < /sub > </strong>Utilizado para baixar uma letra, número ou frase no texto = <sub>EXEMPLO</sub></li>
+        <li><strong>< sup > < /sup > </strong>Utilizado para elevar uma letra, número ou frase no texto = <sup>EXEMPLO</sup></li>
+        <li><strong>< mark > < /mark > </strong>Utilizado para marcar o texto como marcador = <mark>EXEMPLO</mark> </li>
+        <li><strong>< br > </strong>(Tag não precisa fechamento) Utilizada para quebrar a linha do texto, descendo o que for escrito após para a proxima linha = "EXEM'<br>'PLO" ( a palavra foi escrita da seguinte forma = EXEM< br >PLO </li>
+    </ul>
+    <br>
+    <a href="#voltar">< Voltar</a>
+    <h2 id="links">
+        Links
+    </h2>
+    <p>Tag <strong>< a href="" target=""> < /a > </strong>utilizada para links de referências, seja dentro da mesma pagina, levar para outra pagína dentro da mesma aba, ou um link externo onde é aberto uma outra página em outra aba do navegador.
+    <br>Essa tag funciona em conjunto com seu atributo href="", dentro da 1ª aspas do atributo href="" é colocado o link para sua refêrencia, na 2ª aspas do atributo target é colocado como você deseja abrir este link, se na mesma pagina ou em uma nova aba, caso não seja colocado esse atributo, por padrão o link colocado no href é aberto na mesma aba.
+    <br>Entre a Tag é Digitado o Texto que irá se transformar em um Link Clicável
+    <br>
+    <br><strong>Abaixo segue os exemplos:</strong>
+    </p>
+    <ul>
+        <li><strong><a href="https://facebook.com" target="_blank">Exemplo link externo - Facebook</strong></a></li>
+        <li><strong><a href="#inicio">Exemplo link Interno - Inicio desta Página</strong></a></li>
+    </ul>
+    <br>
+    <a href="#voltar">< Voltar</a>
+    <h2 id="citacoes">
+        Citações e Abreviações
+    </h2>
+    <p>Tags utilizadas para estrutura do texto, geralmente para comentários, citações dentro de um texto escrito</p>
+    <ul>
+        <li><strong>< blockquote > < /blockquote ></strong> Utilizado para citações destacadas do texto, mais afastado da margem.</li>
+        <blockquote><strong>EXEMPLO DE CITAÇÃO</strong></blockquote>
+        <li><strong>< abbr title="" > < /abbr ></strong> Utilizado para abreviações, quando está tag é utilizada, o texto abreviado é mostrado e o texto completo escrito dentro do atributo title="" é mostrado ao passar o cursor em cima da abreviação escrita.</li>
+        <p><strong>Exemplo de abreviações = <abbr title="Estados Unidos da America">EUA</abbr> - <abbr title="HyperText Markup Language">HTML</strong></abbr></p>
+    </ul>
+    <br>
+    <a href="#voltar">< Voltar</a>
+    <h2 id="listas">
+        Listas
+    </h2>
+    <p>Para criação de listas é utilizado as tags <strong>< ol > < /ol></strong> para listas ordenadas e numeradas e a tag <strong>< ul > < /ul ></strong> para listas não ordenadas
+    <br>Mas existe um porém, essas tag só funcionam com as Tag filhas <strong>< li > < /li></strong> para exibir o conteúdo das listas.
+    <br>
+    <br><strong>Segue exemplos abaixo:</strong>
+    </p>
+    <h4>Exemplo de lista Ordenada</h4>
+    <ol>
+        <li>Exemplo</li>
+        <li>Exemplo</li>
+        <li>Exemplo</li>
+        <li>Exemplo</li>
+    </ol>
+    <h4>Exemplo de lista não Ordenada</h4>
+    <ul>
+        <li>Exemplo</li>
+        <li>Exemplo</li>
+        <li>Exemplo</li>
+        <li>Exemplo</li>
+    </ul>
+    <br>
+    <a href="#voltar">< Voltar</a>
+    <h2 id="others">
+        Outros
+    </h2>
+    Existe tambem a Tag <strong>< hr /></strong> , onde cria uma linha na pagina aonde ela for inserida.
+    <br>
+    <br><strong>Segue exeplo abaixo onde será colocado três linhas utilizando essa tag:</strong>
+    <hr />
+    <hr />
+    <hr />
+    <br>
+    <a href="#voltar">< Voltar</a>
+    <h2 id="referencias">
+        Referências
+    </h2>
+    <p>Links de referências utilizadas para realizar o desafio</p>
+    </ol>
+    <ul>
+        <li><strong><a target="_blank" href="https://www.dio.me/">https://www.dio.me/</a></strong></li>
+        <li><a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/abbr">https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/abbr</a></li>
+        <li><a target="_blank" href="https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-2-elementos-inline?utm_source=gnarus&utm_medium=timeline">https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-2-elementos-inline?utm_source=gnarus&utm_medium=timeline</a></li>
+        <br>
+        <a href="#inicio">< Voltar</a>
+    </ul>
+    <footer>
+        - Atenciosamente,
+
+        Herlon Andrade.
+    </footer>
+</body>
+</html>
